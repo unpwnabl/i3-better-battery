@@ -64,20 +64,20 @@ $short_text = $full_text;
 my $icon;
 if ($status ne 'Charging') {
 	if ($percent <= 20) {
-		$icon = "";
+		$icon = " ";
 	} elsif ($percent <= 60) {
-		$icon = "";
+		$icon = " ";
 	} elsif ($percent <= 85) {
-		$icon = "";
+		$icon = " ";
 	} elsif ($percent > 85) {
-		$icon = "";
+		$icon = " ";
 	}
 }
 
 
 # print text
-print "$icon $full_text\n";
-print "$icon $short_text\n";
+print "$icon$full_text\n";
+print "$icon$short_text\n";
 
 # consider color and urgent flag only on discharge
 if ($status eq 'Discharging') {

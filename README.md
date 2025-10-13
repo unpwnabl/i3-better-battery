@@ -11,8 +11,8 @@ The icons used inside the code come from the [Nerd Font Icon API](https://www.ne
 ## Installation
 Download the `battery` file into the i3blocks scripts battery directory:
 ```bash
-git clone https://github.com/unpwnabl/i3-better-battery/blob/main/battery
-mv battery path/to/directory
+git clone https://github.com/unpwnabl/i3-better-battery/
+mv i3-better-battery/battery path/to/directory
 ```
 
 ## License
